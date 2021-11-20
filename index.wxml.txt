@@ -1,0 +1,13 @@
+<!--pages/search/search.wxml-->
+<view>
+ <image class='about-banner' src="/icon/background.jpeg"></image>
+</view>
+ 
+<view class='search'>
+ <input type='text'
+ placeholder='Searching for what you want'
+ placeholder-style="color:white"
+ bindinput='input'
+ bindconfirm='confirm'/>
+ <icon type='search' class='icons' color="white"></icon>
+</view>
